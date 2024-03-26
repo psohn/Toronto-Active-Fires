@@ -1,0 +1,13 @@
+alias f := format
+alias l := lint
+alias a := all
+
+format:
+	black .
+
+lint:
+	flake8 .
+
+all:
+	just format
+	just lint
