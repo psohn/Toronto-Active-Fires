@@ -1,6 +1,10 @@
+alias i := install
 alias f := format
 alias l := lint
 alias a := all
+
+install:
+	pipenv install --dev
 
 format:
 	black .
