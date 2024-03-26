@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 black = "24.3.0"
 flake8 = "7.0.0"
+flake8-pyproject = "1.2.3"
 
 [requires]
 python_version = "3.11"

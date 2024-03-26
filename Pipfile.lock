@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dd110643df230bb47ab8b057fd24c939ac938d62adaea09c26a6f145a042bed0"
+            "sha256": "89886d7db47d19a477fa860f5a92022e2017ca0925e5da64378a2d3d5c585ec7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -70,6 +70,14 @@
             "index": "pypi",
             "markers": "python_full_version >= '3.8.1'",
             "version": "==7.0.0"
+        },
+        "flake8-pyproject": {
+            "hashes": [
+                "sha256:6249fe53545205af5e76837644dc80b4c10037e73a0e5db87ff562d75fb5bd4a"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==1.2.3"
         },
         "mccabe": {
             "hashes": [
