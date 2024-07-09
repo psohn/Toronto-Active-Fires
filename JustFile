@@ -12,6 +12,10 @@ format:
 lint:
 	flake8 .
 
+test:
+	pytest ./toronto_active_fires/tests/
+
 all:
 	just format
 	just lint
+	just test
